@@ -1,0 +1,921 @@
+@media only screen and (max-width: 1450px) {
+  /*
+		--------------HEADER CSS------------
+	*/
+
+  /*
+		--------------SLISER CSS------------
+	*/
+
+  .st-slider {
+    overflow: hidden;
+    clear: both;
+    height: 570px;
+  }
+  .flexslider .slides {
+    height: 570px;
+    overflow: hidden;
+  }
+  .flexslider .slides img {
+    height: 570px;
+  }
+  .st-slider .hero-text {
+    height: 570px;
+    width: 45%;
+    padding: 5em 5em;
+  }
+  .st-slider .hero-text h2 {
+    font-size: 4em;
+  }
+  .st-slider .hero-text p {
+    font-size: 1.8em;
+    margin: 0 auto;
+    line-height: 180%;
+  }
+  /*
+	--------------CAROUSEL LIGHT CSS------------
+	*/
+  .st-carousel .campaign {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+  }
+  .st-carousel .campaign img {
+    width: auto;
+    height: 320px;
+  }
+  .st-carousel .summary {
+    width: 50%;
+    padding: 2em 10em 2.6em 3em;
+  }
+  .st-carousel .summary h3 {
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+  }
+  .st-carousel .summary p {
+    font-size: 1.5em;
+  }
+
+  /*
+	--------------CONTACT CSS------------
+	*/
+  .st-contact .wraper::after {
+    right: 0;
+  }
+
+  .st-contact .wraper::before {
+    left: 100px;
+  }
+  /*
+	--------------MAPS CSS------------
+	*/
+
+  .st-maps .inner {
+    max-width: 100%;
+    top: 2em;
+    left: 0px;
+    margin-left: 0;
+    z-index: 1;
+  }
+  .st-maps .inner .locations {
+    width: 350px;
+    margin-left: 25px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  /*
+		--------------HEADER CSS------------
+	*/
+  .st-header > .wraper {
+    width: 100%;
+    padding: 10px;
+  }
+  .st-header .wraper .rightbox .parents-essentials {
+    display: none;
+  }
+  .st-header .wraper .rightbox .search {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .st-header .main-menu {
+    background: url(../images/mobile-cta-bg.svg) 0 0;
+  }
+  .st-header .main-menu::after {
+    display: none;
+  }
+  .st-header .main-menu .mobile-menu {
+    display: inline-block;
+  }
+  .st-header .main-menu .wraper {
+    width: 100%;
+  }
+  .st-header .main-menu ul {
+    display: none;
+  }
+  .st-header .main-menu .yellow-link {
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    float: left;
+    display: block;
+  }
+  .st-header .main-menu .yellow-link .link-container {
+    width: 100%;
+    right: 0px;
+  }
+  .st-header .main-menu .yellow-link .schedule-visit {
+    display: none;
+  }
+  .st-header .main-menu .yellow-link .header-link::after {
+    display: none;
+  }
+  .st-header .main-menu .yellow-link .header-link a::after {
+    top: 0.9em;
+    left: 0.2em;
+    height: 24px;
+    width: 31px;
+    background: url(../images/admissions-icon.svg) 0 0 no-repeat;
+	}
+	.st-header .main-menu .yellow-link .header-link::after {
+    background-position: -126px 0;
+    position: absolute;
+    top: 17px;
+    right: 0.94em;
+    width: 9px;
+    height: 16px;
+		display: block;
+		z-index: 999;
+    background: url(../images/mobile-header-icon-sprite.png) -126px 0 no-repeat;
+  }
+
+  .st-header .main-menu .yellow-link .contact-admin::before {
+    background: url(../images/mobile-cta-end.svg) no-repeat;
+    height: 56px;
+    width: 63px;
+    left: -63px;
+    background-size: auto 100%;
+	}
+
+  .st-header .main-menu .yellow-link .contact-admin {
+    width: 100%;
+    background: url(../images/mobile-cta-bg.svg) 0 0;
+  }
+  .st-header .main-menu .yellow-link .contact-admin a {
+    max-width: 100%;
+    height: 28px;
+    padding-left: 50px;
+    padding-top: 16px;
+    background: url(../images/mobile-cta-bg.svg) 0 0, #fdc02d;
+  }
+  /*
+		--------------SLISER CSS------------
+	*/
+  .st-slider {
+    overflow: hidden;
+    clear: both;
+    height: 570px;
+  }
+  .flexslider .slides {
+    height: 570px;
+    overflow: hidden;
+  }
+  .flexslider .slides img {
+    height: 570px;
+  }
+  .st-slider .hero-text {
+    height: 570px;
+    width: 45%;
+    padding: 4em 3em;
+  }
+  .st-slider .hero-text h2 {
+    font-size: 3.6em;
+  }
+  .st-slider .hero-text p {
+    font-size: 1.8em;
+    margin: 0 auto;
+    line-height: 180%;
+  }
+
+  /*
+	--------------WELCOME CSS------------
+	*/
+
+  .st-welcome .wraper {
+    width: 100%;
+    padding: 5em 3em;
+  }
+  .st-welcome h2 a {
+    font-size: 1.1em;
+  }
+
+  .st-welcome p {
+    font-size: 2.2em;
+  }
+  /*
+	--------------HIGHT LIGHT CSS------------
+	*/
+  .st-highlight {
+    padding: 4em 5px;
+  }
+  .languages li,
+  .languagesOfInstruction li {
+    font-size: 1.4em;
+    margin: 0 0.2em 0.2em 0;
+  }
+  .facilities li {
+    width: 8em;
+    height: 8em;
+    margin: 1em 2em 0 0;
+  }
+  .signpostBlock {
+    margin-top: 0px;
+  }
+  .homeCTASmall h2 {
+    width: 100%;
+    font-size: 1.7em;
+    left: 0;
+    right: 0;
+  }
+  .homeCTASmall:after {
+    top: 15px;
+  }
+  .homeCTASmall .contentInner {
+    margin-top: 15px;
+  }
+  .animationTrigger .secondToAnimate,
+  .animationTrigger .firstToAnimate + h3 {
+    font-size: 15px;
+  }
+  .homeCTASmall .firstToAnimate {
+    font-size: 1.3em;
+  }
+  .testimonial .quote {
+    padding: 4.5em 0em;
+  }
+  .testimonials .contentInner,
+  .signposts .contentInner {
+    top: 20px;
+  } /*
+	--------------SHARE CSS------------
+	*/
+  .st-share .wraper {
+    width: 100%;
+  }
+  .st-share .list-item {
+    width: 100%;
+  }
+  /*
+	--------------NEWS CSS------------
+	*/
+  .feedPanel {
+    width: 32%;
+  }
+  /*
+	--------------MAPS CSS------------
+	*/
+  .st-maps .inner {
+    max-width: 100%;
+    top: 2em;
+    left: 0px;
+    z-index: 1;
+  }
+  .st-maps .inner .locations {
+    width: 350px;
+  }
+  .st-maps .inner .locations p {
+    margin: 20px 0 40px 0;
+    line-height: 180%;
+  }
+  .st-maps .inner .locations span {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+  }
+
+  .st-maps .map .mapLinks a {
+    padding: 0.5em 2em 0.5em 1em;
+  }
+  /*
+	--------------CONTACT CSS------------
+	*/
+  .st-contact .wraper {
+    width: 100%;
+  }
+  .st-contact .wraper .inner {
+    padding: 2.5em 2em 3.5em;
+    max-width: 100%;
+  }
+  .st-contact .wraper .inner h2 {
+    padding: 1em 1.5em;
+    font-size: 3.6em;
+  }
+  .st-contact .wraper .contact-form .input-group {
+    padding: 1em 1.5em 0.5em !important;
+  }
+
+  .st-contact .wraper::after {
+    right: 0;
+  }
+
+  .st-contact .wraper::before {
+    left: 100px;
+  }
+  /*
+		--------------PAGE CSS------------
+	*/
+  .st-page {
+    background: #edebea;
+    padding-bottom: 40px;
+  }
+  .st-page .wraper {
+    width: 100%;
+  }
+  .st-page .detail {
+    width: 100%;
+  }
+  .st-page .detail h1 {
+    padding: 20px;
+    padding-top: 30px;
+  }
+  .st-page .detail .content .detail-article {
+    width: 100%;
+    clear: both;
+    float: none;
+    width: 98%;
+    margin: 1%;
+  }
+  .st-page .detail .content .aside-article {
+    width: 100%;
+    clear: both;
+    float: none;
+    width: 98%;
+    margin: 1%;
+  }
+  /*
+		--------------FOOTER CSS------------
+	*/
+  .st-footer {
+  }
+  .st-footer .wraper,
+  .st-footer .top-footer .wraper {
+    width: 100%;
+  }
+  .st-footer .middle-footer {
+    padding: 3em;
+  }
+  .st-footer .bottom-footer {
+    padding: 2em;
+  }
+  .st-footer .bottom-footer ul li a {
+    font-size: 1.3em;
+  }
+  .st-footer .bottom-footer p {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /*
+		--------------HEADER CSS------------
+	*/
+  .st-header .wraper .logo img {
+    width: 100%;
+  }
+  /*
+		--------------SLISER CSS------------
+	*/
+  .st-slider {
+    height: auto;
+  }
+  .flexslider .slides {
+    height: 400px;
+  }
+  .flexslider .slides img {
+    height: auto;
+  }
+  .st-slider .hero-text {
+    padding: 4em 3em;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 12em;
+  }
+  .st-slider .hero-text .campaignsLink {
+    bottom: 2em;
+  }
+  /*
+	--------------CAROUSEL LIGHT CSS------------
+	*/
+  .st-carousel .campaign {
+    width: 100%;
+    float: none;
+    color: #000;
+  }
+  .st-carousel .campaign img {
+    width: 100%;
+    height: auto;
+  }
+  .st-carousel .summary {
+    width: 100%;
+    padding: 5em 9em 8em 9em;
+  }
+  .st-carousel .summary h3 {
+    font-size: 2.8em;
+    color: #000;
+  }
+  .st-carousel .summary p {
+    font-size: 1.5em;
+  }
+  .flex-direction-nav .flex-prev {
+    bottom: 25%;
+    top: auto;
+  }
+  .flex-direction-nav .flex-next {
+    bottom: 25%;
+    top: auto;
+  }
+  /*
+	--------------WELCOME CSS------------
+	*/
+
+  .st-welcome .wraper {
+    width: 100%;
+    padding: 5em 3em;
+  }
+  .st-welcome h2 a {
+    font-size: 1em;
+    margin-bottom: 14px;
+  }
+
+  .st-welcome p {
+    font-size: 2em;
+  }
+  /*
+	--------------HIGHT LIGHT CSS------------
+	*/
+  .column {
+    float: none;
+  }
+  .column .box {
+    padding: 1em;
+  }
+  .languages li,
+  .languagesOfInstruction li {
+    font-size: 1.2em;
+  }
+  .column h3,
+  .column .box.schoolType h4,
+  .column .infographicTitle {
+    font-size: 1.5em;
+  }
+  .curriculum li {
+    margin: 0 1em 1em 0;
+    width: 5em;
+  }
+  .infographicNumber {
+    font-size: 4.3em;
+  }
+  .facilities li {
+    width: 7em;
+    height: 7em;
+    margin: 1em 1em 0 0;
+  }
+  .signposts ul li {
+    width: 100%;
+    margin-bottom: 10px;
+    float: none;
+  }
+  .homeCTAWide {
+    width: 100%;
+    margin: auto;
+  }
+  .homeCTASmall .contentInner {
+    background: rgba(114, 44, 138, 0.8);
+  }
+  .homeCTASmall h2 {
+    display: none;
+  }
+  .homeCTA .contentInner p,
+  .homeCTASmall .contentInner p,
+  .homeCTA .contentInner .ctaLink,
+  .homeCTASmall .contentInner .ctaLink {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    max-height: 9em;
+    -webkit-animation: all 0.5s ease-in-out;
+    -moz-animation: all 0.5s ease-in-out;
+    -ms-animation: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .animationTrigger .secondToAnimate,
+  .animationTrigger .firstToAnimate + h3 {
+    -webkit-animation: opacity 0.6s 0.2s ease-in-out,
+      transform 0.6s 0.2s ease-in-out;
+    -moz-animation: opacity 0.6s 0.2s ease-in-out,
+      transform 0.6s 0.2s ease-in-out;
+    -ms-animation: opacity 0.6s 0.2s ease-in-out,
+      transform 0.6s 0.2s ease-in-out;
+    transition: opacity 0.6s 0.2s ease-in-out, transform 0.6s 0.2s ease-in-out;
+  }
+  .animationTrigger .firstToAnimate,
+  .animationTrigger .firstToAnimate + h3,
+  .animationTrigger .secondToAnimate {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    max-height: 9em;
+    -webkit-animation: opacity 0.4s 0.2s ease-in-out,
+      transform 0.4s 0.2s ease-in-out;
+    -moz-animation: opacity 0.4s 0.2s ease-in-out,
+      transform 0.4s 0.2s ease-in-out;
+    -ms-animation: opacity 0.4s 0.2s ease-in-out,
+      transform 0.4s 0.2s ease-in-out;
+    transition: opacity 0.4s 0.2s ease-in-out, transform 0.4s 0.2s ease-in-out;
+  }
+  .testimonials .contentInner,
+  .signposts .contentInner {
+    top: -20px;
+  }
+  .homeCTASmall:after {
+    top: 0px;
+  }
+  .testimonials li {
+    float: none;
+    width: 100%;
+    margin: 20px 0.5%;
+  }
+  .testimonials li .homeSignpost .quote,
+  .testimonial .quote {
+    -webkit-animation: quoteBGAppear 0.6s ease-in-out;
+    animation: quoteBGAppear 0.6s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+
+  .testimonials li .homeSignpost h3,
+  .testimonial h3 {
+    opacity: 0;
+    max-height: 0;
+  }
+
+  .testimonials li .homeSignpost blockquote,
+  .testimonial blockquote,
+  .testimonials li .homeSignpost cite,
+  .testimonial cite,
+  .testimonials li .homeSignpost .ctaLink,
+  .testimonial .ctaLink {
+    -webkit-animation: testimonialAppear 0.8s ease-in-out;
+    animation: testimonialAppear 0.8s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+
+  .testimonials li .homeSignpost cite,
+  .testimonial cite {
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s;
+  }
+
+  .testimonials li .homeSignpost .ctaLink,
+  .testimonial .ctaLink {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+  }
+  /*
+	--------------SHARE CSS------------
+	*/
+  .st-share .wraper {
+    width: 100%;
+  }
+  .st-share .list-item {
+    width: 100%;
+  }
+  /*
+	--------------NEWS CSS------------
+	*/
+  .st-news .inner {
+    margin-bottom: 20px;
+  }
+  .feedPanel {
+    width: 49%;
+  }
+  /*
+	--------------MAPS CSS------------
+	*/
+  .st-maps .inner {
+    width: 100%;
+    position: relative;
+    top: auto;
+    left: 0;
+  }
+  .st-maps .inner .locations {
+    width: 100%;
+    padding: 2.5em;
+    position: relative;
+    top: auto;
+    left: 0;
+    text-align: center;
+  }
+  /*
+	--------------CONTACT CSS------------
+	*/
+
+  .st-contact .wraper .inner p {
+    padding: 0 2.5em;
+  }
+  .st-contact .wraper .contact-form .input-group {
+    padding: 1em 1.5em 0.5em !important;
+  }
+  .st-contact .wraper::after {
+    right: 0;
+  }
+  .st-contact .wraper .contact-form .input-group {
+    width: 100%;
+    padding: 1em 3.5em 0.5em !important;
+    float: none;
+    margin: auto;
+  }
+  .st-contact .wraper .contact-form .full textarea {
+    width: 100%;
+  }
+  /*
+		--------------PAGE CSS------------
+	*/
+  .st-page .panels ul li {
+    width: 48.4%;
+  }
+  .st-page .panels ul li:nth-child(2n + 2) {
+    margin-right: 0;
+  }
+  /*
+		--------------FOOTER CSS------------
+	*/
+  .st-footer .top-footer .wraper .info,
+  .st-footer .top-footer .wraper .link,
+  .st-footer .bottom-footer p,
+  .st-footer .bottom-footer ul {
+    width: 99%;
+    float: none;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 0 3em;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+  }
+  .st-footer .top-footer .wraper h3 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+  }
+  .st-footer .top-footer .wraper .link {
+    min-height: auto;
+  }
+  .st-footer .bottom-footer {
+    padding: 0 2em;
+  }
+  .st-footer .bottom-footer ul {
+    text-align: center;
+    padding: 0;
+  }
+  .st-footer .bottom-footer ul li {
+    display: block;
+    float: none;
+  }
+  .st-footer .bottom-footer ul li::after {
+    display: none;
+  }
+  .st-footer .bottom-footer p {
+    padding: 0;
+  }
+  .st-footer .bottom-footer p img {
+    float: none;
+    margin: auto;
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .st-footer .top-footer .wraper .link li a {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /*
+		--------------HEADER CSS------------
+	*/
+  .st-header .wraper .logo,
+  .st-header .wraper .rightbox {
+    width: 50%;
+  }
+  .st-header .wraper .rightbox .search input[type='text'] {
+    width: 135px;
+  }
+  .st-header .main-menu .yellow-link {
+    right: 0px;
+  }
+  .st-header .main-menu .yellow-link .link-container {
+    right: 0px;
+  }
+  /*
+		--------------SLISER CSS------------
+	*/
+
+  .flexslider .slides {
+    height: auto;
+  }
+  .flexslider .slides img {
+    height: auto;
+  }
+  .st-slider .hero-text {
+    padding: 4em 1em;
+    padding-bottom: 100px;
+  }
+  .st-slider .hero-text h2 {
+    font-size: 2.8em;
+  }
+  .st-slider .hero-text p {
+    font-size: 1.3em;
+  }
+  /*
+	--------------CAROUSEL LIGHT CSS------------
+	*/
+  .st-carousel .campaign {
+    width: 100%;
+    float: none;
+    color: #000;
+  }
+  .st-carousel .campaign img {
+    width: 100%;
+    height: auto;
+  }
+  .st-carousel .summary {
+    padding: 20px;
+    padding-bottom: 70px;
+  }
+  .st-carousel .summary h3 {
+    font-size: 2em;
+  }
+  .st-carousel .summary p {
+    font-size: 1.4em;
+  }
+  .flex-direction-nav .flex-prev {
+    bottom: auto;
+    top: 20%;
+  }
+  .flex-direction-nav .flex-next {
+    bottom: auto;
+    top: 20%;
+  }
+  /*
+	--------------WELCOME CSS------------
+	*/
+
+  .st-welcome .wraper {
+    width: 100%;
+    padding: 5em 3em;
+  }
+  .st-welcome h2 a {
+    font-size: 0.8em;
+    margin-bottom: 14px;
+  }
+
+  .st-welcome p {
+    font-size: 1.4em;
+  }
+  /*
+	--------------HIGHT LIGHT CSS------------
+	*/
+  .st-highlight {
+  }
+  .column,
+  .column.middle {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /*
+	--------------SHARE CSS------------
+	*/
+  .st-share {
+    padding: 0;
+  }
+  .st-share .wraper p {
+    font-size: 1.4em;
+  }
+  .st-share .wraper h2 {
+    font-size: 3em;
+  }
+  /*
+	--------------NEWS CSS------------
+	*/
+  .st-news {
+    padding: 2em 0;
+  }
+  .st-news .inner h2 {
+    font-size: 3em;
+    padding: 0 10px;
+  }
+  .st-news .inner .st-btn {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+  .st-news .inner {
+    margin-bottom: 20px;
+  }
+  .feedPanel {
+    width: 100%;
+  }
+  /*
+	--------------MAPS CSS------------
+	*/
+  .st-maps .map .mapLinks {
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .st-maps .map .mapLinks a {
+    width: 100%;
+  }
+  .st-maps .inner .locations {
+    padding-bottom: 5em;
+    margin-left: 0;
+  }
+
+  /*
+	--------------CONTACT CSS------------
+	*/
+  .st-contact .wraper .inner {
+    padding: 2.5em 2em 0em;
+  }
+  .st-contact .wraper::before,
+  .st-contact .wraper::after {
+    display: none;
+  }
+  .st-contact .wraper .inner h2,
+  .st-contact .wraper .inner p {
+    padding: 5px 10px;
+  }
+  .st-contact .wraper .inner h2 {
+    font-size: 3em;
+  }
+  .st-contact .wraper .inner p {
+    font-size: 1.4em;
+  }
+  .st-contact .wraper .contact-form .input-group {
+    padding: 1em 1.5em 0.5em !important;
+  }
+  .st-contact .wraper .contact-form .input-group label {
+    font-size: 15px;
+  }
+  /*
+		--------------PAGE CSS------------
+	*/
+  .st-page .detail h1,
+  .st-page .wraper .content h1 {
+    font-size: 3.5em;
+  }
+  .st-page .wraper .content p {
+    font-size: 1.4em;
+  }
+  .st-page .panels ul li {
+    width: 100%;
+  }
+  /*
+		--------------FOOTER CSS------------
+	*/
+  .st-footer .top-footer .wraper .info,
+  .st-footer .top-footer .wraper .link,
+  .st-footer .bottom-footer p,
+  .st-footer .bottom-footer ul {
+    padding: 2px 0em;
+  }
+  .st-footer .top-footer {
+    padding: 4em 1em 0em;
+  }
+  .st-footer .middle-footer .bread {
+    display: none;
+  }
+
+  .st-footer .middle-footer .bread,
+  .st-footer .middle-footer .social {
+    width: 100%;
+    float: none;
+    clear: both;
+    text-align: center;
+  }
+  .st-footer .middle-footer .social li {
+    display: inline-block;
+    margin: 5px;
+  }
+  .st-footer .middle-footer .social li a {
+    float: none;
+    margin: 0;
+  }
+}
